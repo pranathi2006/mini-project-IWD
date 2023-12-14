@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 1000px;
+            height: 450px;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .perfume-image {
+            width: 200px;
+            height: 300px;
+        }
+
+        .perfume-details {
+            max-width: 500px;
+        }
+
+        nav {
+            background-color: rgb(231, 226, 187);
+            color: rgb(255, 255, 255);
+            padding: 0px 50px;
+        }
+
+        .navTop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .search {
+            display: flex;
+            align-self: center;
+            background-color: #683939f5;
+            padding: 10px 10px;
+            border-radius: 10px;
+            margin-left: 800px;
+        }
+
+        .searchInput {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: #ffffff;
+        }
+
+        .searchInput::placeholder {
+            color: rgba(255, 255, 255, 0.975);
+        }
+
+        .limitedOffer {
+            font-size: 20px;
+            border-bottom: 2px solid #fffafa;
+            cursor: pointer;
+        }
+
+        .navBottom {
+            display: flex;
+            align-items: right;
+            justify-content: right;
+        }
+
+        .menuItem {
+            margin-right: 20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #683939f5;
+            box-shadow: 0 4px 8px rgb(255, 255, 255);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menuItem:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown li {
+            padding: 10px;
+        }
+
+        .dropdown li:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown a {
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+        }
+
+        .dropdown a:hover {
+            background-color: #000000;
+        }
+
+        .slider {
+            background: url();
+        }
+
+        .home {
+            background-image: url(/front\ logo.jpg.png);
+            height: 580px;
+            width: 0 px;
+        }
+        b{
+            background-color: cornsilk;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        img{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="/logo.jpg" height="100px" width="230px" alt="">
+            </div>
+            <div class="navItem">
+
+            </div>
+            <div class="navItem"></div>
+            <span class="limitedOffer"></span>
+        </div>
+        <div class="navBottom">
+            <a href="index.html">
+                <h3 class="menuItem" style="color: rgb(255, 255, 255);">HOME</h3>
+            </a>
+            <h3 class="menuItem"> FRAGRANCE
+                <ul class="dropdown">
+                    <li><a href="index4.html">MEN</a></li>
+                    <li><a href="index3.html">WOMEN </a></li>
+
+            </h3>
+            <a href="index2.html">
+                <h3 class="menuItem" style="color: rgb(255, 255, 255);">KNOW US</h3>
+            </a>
+            <a href="index5.html">
+                <h3 class="menuItem" style="color: rgb(255, 255, 255);">CONTACT US</h3>
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <img class="perfume-image" src="/perfume6.jpg" alt="Perfume Image">
+        <div class="perfume-details">
+            <h2>Giorgio Armani Giorgio Armani Acqua Di Gio Homme Le Parfum</h2>
+            <p><strong>Price:</strong>₹980</p>
+            <p><strong>Details:</strong>Giorgio Armani's ACQUA DI GIÒ PARFUM is a bold and intense evolution of the iconic Acqua di Giò fragrance. This new parfum version brings a deep and captivating freshness with the addition of incense notes, which add an incandescent intensity to the classic marine notes of the original scent.</p>
+            <b href="#">Buy Now</b>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
